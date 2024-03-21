@@ -20,22 +20,22 @@ public class Persona {
     /**
      * 
      */
-    private void Nombre String;
+    private void  String nombre;
 
     /**
      * 
      */
-    private void Apellido1 String;
+    private void String apellido1 ;
 
     /**
      * 
      */
-    private void Apellido2 String;
+    private void  String apellido2;
 
     /**
      * 
      */
-    private void edad int = 0;
+    private void  int edad = 0;
 
     /**
      * @param String dni 
