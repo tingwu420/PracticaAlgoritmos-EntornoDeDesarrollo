@@ -1,6 +1,7 @@
 package util;
 
 public abstract class Algoritmos {
+	
 	public static int fibonacci(int numero) {
         if (numero <= 1) {
             return numero;
@@ -8,4 +9,17 @@ public abstract class Algoritmos {
             return fibonacci(numero - 1) + fibonacci(numero - 2);
         }
     }
+	
+	
+	// Método para calcular el factorial de un número
+    public static int factorial(int numero) {
+        if (numero == 0) {
+            return 1;
+        } else {
+            return numero * factorial(numero - 1);
+        }
+    }
+    
+    
+    
 }
